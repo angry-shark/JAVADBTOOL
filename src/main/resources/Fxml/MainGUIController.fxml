@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewContoller.MainGUIController">
+   <children>
+      <Pane layoutX="12.0" layoutY="14.0" prefHeight="78.0" prefWidth="736.0">
+         <children>
+            <Button layoutX="573.0" layoutY="17.0" mnemonicParsing="false" onMouseClicked="#gotoAdd" text="Manager DB by SQL" />
+            <ComboBox fx:id="select" layoutX="148.0" layoutY="17.0" prefWidth="150.0" />
+            <Label layoutX="22.0" layoutY="17.0" prefHeight="23.0" prefWidth="102.0" text="Select the Table" />
+         </children>
+      </Pane>
+      <TableView fx:id="testTable" layoutX="59.0" layoutY="158.0" prefHeight="318.0" prefWidth="642.0">
+        <columns>
+            <TableColumn fx:id="Column1" prefWidth="78.0" text="id" />
+            <TableColumn fx:id="Column2" prefWidth="90.0" text="CourseId" />
+            <TableColumn fx:id="Column3" prefWidth="101.0" text="Secid" />
+            <TableColumn fx:id="Column4" prefWidth="100.0" text="Semester" />
+            <TableColumn fx:id="Column5" minWidth="0.0" prefWidth="90.0" text="year" />
+            <TableColumn fx:id="Column6" prefWidth="90.0" text="year" />
+            <TableColumn fx:id="Column7" prefWidth="92.0" text="year" />
+        </columns>
+      </TableView>
+      <Button layoutX="586.0" layoutY="114.0" mnemonicParsing="false" onMouseClicked="#refreshTable" prefHeight="23.0" prefWidth="132.0" text="refresh table" />
+      <Button layoutX="432.0" layoutY="114.0" mnemonicParsing="false" onMouseClicked="#checkNowtable" prefHeight="23.0" prefWidth="132.0" text="reset Table" />
+      <Label fx:id="TableNameText" layoutX="28.0" layoutY="118.0" prefHeight="15.0" prefWidth="239.0" text="Now Table Name is : " />
+      <Button layoutX="48.0" layoutY="501.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="78.0" text="logout" onMouseClicked="#gotoLogin"/>
+   </children>
+</Pane>

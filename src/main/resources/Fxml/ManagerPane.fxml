@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewContoller.ManagerPane">
+   <children>
+      <TextArea layoutX="28.0" layoutY="61.0" prefHeight="354.0" prefWidth="645.0" fx:id="sqlInputArea"/>
+      <Label alignment="CENTER" layoutX="28.0" layoutY="20.0" prefHeight="28.0" prefWidth="107.0" text="input the SQL:" />
+      <Button layoutX="185.0" layoutY="446.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="107.0" text="Submit" onMouseClicked="#passSQL"/>
+      <Button layoutX="385.0" layoutY="444.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="116.0" text="Close" onMouseClicked="#close" />
+   </children>
+</Pane>

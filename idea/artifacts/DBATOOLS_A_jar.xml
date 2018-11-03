@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DBATOOLS_A:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DBATOOLS_A_jar</output-path>
+    <root id="archive" name="DBATOOLS_A.jar">
+      <element id="module-output" name="DBATOOLS_A" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.46/mysql-connector-java-5.1.46.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.46" />
+    </root>
+  </artifact>
+</component>
